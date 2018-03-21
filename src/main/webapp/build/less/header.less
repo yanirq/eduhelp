@@ -8,10 +8,10 @@
   max-height: 100px;
   z-index: 1030;
   //Navbar
-  .navbar {
-    .transition(margin-left @transition-speed @transition-fn);
+  > .navbar {
+    .transition(margin-right @transition-speed @transition-fn);
     margin-bottom: 0;
-    margin-left: @sidebar-width;
+    margin-right: @sidebar-width;
     border: none;
     min-height: @navbar-height;
     border-radius: 0;
@@ -21,12 +21,12 @@
   }
   //Navbar search text input
   #navbar-search-input.form-control {
-    background: rgba(255, 255, 255, .2);
+    background: rgba(255,255,255,.2);
     border-color: transparent;
     &:focus,
-    &:active {
-      border-color: rgba(0, 0, 0, .1);
-      background: rgba(255, 255, 255, .9);
+      &:active {
+      border-color: rgba(0,0,0,.1);
+      background: rgba(255,255,255,.9);
     }
     &::-moz-placeholder {
       color: #ccc;
@@ -42,9 +42,9 @@
   //Navbar Right Menu
   .navbar-custom-menu,
   .navbar-right {
-    float: right;
+    float: left;
     @media (max-width: @screen-sm-max) {
-      a {
+       a {
         color: inherit;
         background: transparent;
       }
@@ -56,7 +56,6 @@
       .navbar-collapse & {
         margin: 7.5px -15px;
       }
-
       > li {
         color: inherit;
         border: 0;
@@ -65,7 +64,7 @@
   }
   //Navbar toggle button
   .sidebar-toggle {
-    float: left;
+    float: right;
     background-color: transparent;
     background-image: none;
     padding: @navbar-padding-vertical @navbar-padding-horizontal;
@@ -109,7 +108,7 @@
   .logo {
     .transition(width @transition-speed @transition-fn);
     display: block;
-    float: left;
+    float: right;
     height: @navbar-height;
     font-size: 20px;
     line-height: 50px;
@@ -160,7 +159,7 @@
     padding: 7px 5px;
     position: absolute;
     top: 15px;
-    right: 10px;
+    left: 10px;
     .border-radius(2px);
     > li > a {
       color: #444;
@@ -182,28 +181,25 @@
       top: 0;
       right: 0;
       float: none;
-      background: @gray-lte;
+      background: @gray;
       padding-left: 10px;
       li:before {
-        color: darken(@gray-lte, 20%);
+        color: darken(@gray, 20%);
       }
     }
   }
 }
-
 .navbar-toggle {
   color: #fff;
   border: 0;
   margin: 0;
   padding: @navbar-padding-vertical @navbar-padding-horizontal;
 }
-
 //Control navbar scaffolding on x-small screens
 @media (max-width: @screen-sm-max) {
   .navbar-custom-menu .navbar-nav > li {
     float: left;
   }
-
   //Dont't let links get full width
   .navbar-custom-menu .navbar-nav {
     margin: 0;
@@ -230,14 +226,14 @@
       margin: 0;
     }
     .navbar-custom-menu {
-      float: right;
+      float: left;
     }
   }
 }
 
 .navbar-collapse.pull-left {
-  @media (max-width: @screen-sm-max) {
-    float: none !important;
+  @media(max-width: @screen-sm-max) {
+    float: none!important;
     + .navbar-custom-menu {
       display: block;
       position: absolute;

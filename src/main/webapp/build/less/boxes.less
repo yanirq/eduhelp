@@ -28,7 +28,7 @@
     border-top-color: @green;
   }
   &.box-default {
-    border-top-color: @gray-lte;
+    border-top-color: @gray;
   }
 
   // collapsed mode
@@ -77,14 +77,14 @@
       .btn,
       a {
         &:hover {
-          background: rgba(0, 0, 0, 0.1);
+          background: rgba(0,0,0,0.1);
         }
       }
     }
 
     // Box color variations
     &.box-default {
-      .box-solid-variant(@gray-lte, #444);
+      .box-solid-variant(@gray, #444);
     }
     &.box-primary {
       .box-solid-variant(@light-blue);
@@ -122,6 +122,7 @@
       margin-bottom: 5px;
     }
   }
+
 
   // jQuery Knob in a box
   .knob-label {
@@ -204,7 +205,7 @@
   }
   > .box-tools {
     position: absolute;
-    right: 10px;
+    left: 10px;
     top: 5px;
     [data-toggle="tooltip"] {
       position: relative;
@@ -215,10 +216,6 @@
         right: 0;
         left: auto;
       }
-    }
-
-    .dropdown-menu > li > a {
-      color: #444!important;
     }
   }
 }
@@ -277,7 +274,6 @@
   padding: @box-padding;
   background-color: @box-footer-bg;
 }
-
 .chart-legend {
   &:extend(.list-unstyled);
   margin: 10px 0;
@@ -286,39 +282,6 @@
       float: left;
       margin-right: 10px;
     }
-  }
-}
-
-//Comment Box
-.box-comments {
-  background: #f7f7f7;
-  .box-comment {
-    .clearfix();
-    padding: 8px 0;
-    border-bottom: 1px solid #eee;
-    &:last-of-type {
-      border-bottom: 0;
-    }
-    &:first-of-type {
-      padding-top: 0;
-    }
-    img {
-      &:extend(.img-sm);
-      float: left;
-    }
-  }
-  .comment-text {
-    margin-left: 40px;
-    color: #555;
-  }
-  .username {
-    color: #444;
-    display: block;
-    font-weight: 600;
-  }
-  .text-muted {
-    font-weight: 400;
-    font-size: 12px;
   }
 }
 
@@ -344,7 +307,7 @@
       margin-bottom: 0;
     }
 
-    > input[type='checkbox'] {
+    > input[type='checkbox']  {
       margin: 0 10px 0 5px;
     }
 
@@ -384,7 +347,7 @@
       }
 
       .label {
-        background: @gray-lte !important;
+        background: @gray!important;
       }
     }
   }
@@ -413,7 +376,6 @@
   }
 
 }
-
 // END TODO WIDGET
 
 /* Chat widget (DEPRECATED - this will be removed in the next major release. Use Direct Chat instead)*/
@@ -472,7 +434,6 @@
   }
 
 }
-
 //END CHAT WIDGET
 
 //Input in box
