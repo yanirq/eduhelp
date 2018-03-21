@@ -1,0 +1,34 @@
+{
+  "events": [
+    {
+      "id": "1",
+      "image":"http://www.3144.co.il/Content/UserFiles/Upload/%D7%92%D7%99%D7%A0%D7%95%D7%9F%20%D7%91%D7%9E%D7%A8%D7%9B%D7%96.jpg",
+      "name":"הקמת גינה",
+      "creator":"מנהלת בית הספר",
+      "date":"21.3.2018",
+      "location":"בית הספר",
+      "skills":["גנן","גנן","עוזר","עוזר"],
+      "users":["1","3"]
+    },
+    {
+      "id": "2",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/4/4f/Exquisite-kspread.png",
+      "name":"הכנה למבחן בחשבון",
+      "creator":"דני מ ד2",
+      "date":"22.3.2018",
+      "location":"כיתה ד2 בית הספר",
+      "skills":["תלמיד","מורה","עוזר הוראה"],
+      "users":["1","2"]
+    },
+    {
+      "id": "3",
+      "image":"https://www.vindschilder.be/upload/content/494_1.png",
+      "name":"צביעה במעון יום לקשיש",
+      "creator":"מנהלת בית הספר",
+      "date":"27.3.2018",
+      "location":"מעון יום רימונים",
+      "skills":["צבע לבן","מברשות צבע","עוזר"],
+      "users":["1","2"]
+    }
+  ]
+}
