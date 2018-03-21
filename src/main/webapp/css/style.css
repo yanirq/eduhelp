@@ -1,0 +1,28 @@
+.panel-primary {
+    display: -webkit-inline-box;
+    //width: 100%;
+}
+.panel-primary img {
+    //width:30%;
+    width:200px;
+}
+.panel-primary h3{
+    margin-top:5px;
+    //width: 70%;
+}
+.eventData{
+    width: 200px;
+    margin-right: 15px;
+}
+.eventTitle{
+
+}
+.eventClicks {
+    //float: left;
+    display: grid;
+    width: 150px;
+    padding-top: 30px;
+}
+.eventClicks button {
+    width: 140px;
+}
