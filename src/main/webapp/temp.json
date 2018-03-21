@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+        "errorDomain": "Default",
+        "uiStringID": "default_error_msg",
+        "uiTitleID": "default_error_title",
+        "uiCTATitleID": "default_error_cta",
+        "needsDisplay": "true",
+        "isFatal": "true"
+    },
+    {
+        "errorDomain": "ALDSK",
+        "uiStringID": "err_authn_text25",
+        "uiTitleID": "default_error_title",
+        "uiCTATitleID": "default_error_cta",
+        "needsDisplay": "true",
+        "isFatal": "false"
+      },
+    {
+      "errorDomain": "jon",
+      "uiStringID": "err_authn_text25",
+      "uiTitleID": "default_error_title",
+      "uiCTATitleID": "default_error_cta",
+      "needsDisplay": "true",
+      "isFatal": "false"
+    }
+  ]
+}
