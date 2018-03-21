@@ -1,0 +1,346 @@
+
+<!doctype html>
+<html class="">
+<head>
+    <meta charset="utf-8">
+    <meta name="csrf-token" content="DxEVZkyKyZmWsQSmCg3qpD7d1AXS9AOKTrfWJBCG">
+    <title>ebay campaign</title>
+
+    <meta name="description" content="ebay campaign - nice catch get prize">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://apps.ebay.co.il/nice-catch-get-prize">
+    <meta property="og:description" content="ebay campaign - nice catch get prize">
+    <meta property="og:title" content="ebay campaign - nice catch get prize">
+    <meta name="robots" content="noindex, nofollow">
+    <meta property="og:image" content="https://apps.ebay.co.il/uploads/defaults/article.jpg">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, target-densitydpi=device-dpi">
+
+    <link rel="stylesheet" href="https://apps.ebay.co.il/assets/fonts/font-awesome-4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://apps.ebay.co.il/assets/css/main.min.css?v=1.5.16">
+    <script type="text/javascript" src="https://apps.ebay.co.il/assets/js/vendor/modernizr.min.js"></script>
+
+    <style>
+        .head-text{
+            font-size: 32px;
+        }
+        .intro-text {
+            font-size:22px;
+            line-height:1.5em;
+        }
+        .left-text {
+            font-size:22px;
+            line-height:1.5em;
+        }
+        .left-text p{
+            margin:0;
+        }
+        .close-text {
+            font-size:16px;
+        }
+        .form_fields {
+            display:none;
+        }
+        .send_button {
+            width:100%;
+        }
+        .btn {
+            width:100%;
+        }
+        .fb_area {
+            text-align:left;
+            height:55px;
+        }
+        .status_text {
+            padding-top:10px;
+            text-align:right;
+            font-weight:bold;
+        }
+        .inactive_button {
+            background-color:gray!important;
+            color:grey;
+            border: 1px solid #4b4b4b !important;
+            background-image: linear-gradient(to top,#979797 0,#979797 100%)!important;
+        }
+        #supportForm .inputH.inumber-1::before {content:none;}
+        #supportForm .inputH.inumber-2::before {content:none;}
+        #supportForm .inputH.inumber-3::before {content:none;}
+        #supportForm .inputH.inumber-4::before {content:none;}
+
+        @media (max-width:760px) {
+            body header .holder {
+                border-bottom:0;
+                padding-bottom:0;
+            }
+            body header .tbl .cell.logo {
+                border-bottom:0;
+                padding-bottom:0;
+            }
+            .intro-text {
+                font-size:18px;
+                line-height:1.5em;
+            }
+            .half_width_right img {
+                margin-bottom:10px;
+            }
+            .left-text {
+                font-size:18px;
+                line-height:1.5em;
+            }
+            .left-text p{
+                margin:0;
+            }
+        }
+    </style>
+
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="https://apps.ebay.co.il/assets/js/vendor/json2.js"></script>
+    <script type="text/javascript" src="https://apps.ebay.co.il/assets/js/vendor/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Google Tag Manager
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-M8NGTJ');</script>
+     End Google Tag Manager -->
+
+    <!-- Hotjar Tracking Code for export.ebay.co.il -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:93620,hjsv:5};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+
+    <script src="https://leads.prpl.co.il/api/api.min.js"></script>
+</head>
+
+<body class="i_rtl">
+<div class="ebayColors clearfix">
+    <div class="color green left"></div>
+    <div class="color orange left"></div>
+    <div class="color blue left"></div>
+    <div class="color red left"></div>
+</div>
+
+<header class="top-spacer" style="background: white;padding-bottom: 1.4em;border-bottom: 2px solid #e4e4e4;">
+    <div class="grid">
+        <div class="holder">
+            <div class="tbl fullWidth">
+                <div class="cell vam logo center">
+                    <a href="https://careers.ebayinc.com/join-our-team/start-your-search/find-jobs-by-location/detail/israel">
+                        <img src="https://apps.ebay.co.il/assets/img/logo2.png" alt="Sell on eBay"/>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<div class="grid spacer">
+    <div class="block big">
+        <div class="head">
+            <span class="head-text">מזל טוב!</span>
+        </div>
+
+        <div class="body" id="supportFormPage">
+
+            <form action="https://apps.ebay.co.il/%D7%A8%D7%95%D7%A6%D7%99%D7%9D-%D7%9C%D7%A2%D7%93%D7%9B%D7%9F-%D7%90%D7%95%D7%AA%D7%A0%D7%95-%D7%91%D7%9E%D7%A9%D7%94%D7%95-189" method="post" accept-charset="UTF-8" data-form-id="9" id="supportForm" novalidate>
+                <input name="_token" type="hidden" value="DxEVZkyKyZmWsQSmCg3qpD7d1AXS9AOKTrfWJBCG">
+
+                <div class='form_section'>
+                    <div class="block big white-box green bigLH collapsedNoteBlock">
+                            <span class="intro-text" dir="RTL">
+								<strong>בזכות החדות, הסקרנות והנחישות שלך,<br />
+                                אנחנו ב- eBay Israel R&D Center<br />
+								שמחים להעניק לך פרס מגניב במיוחד!</br>
+								</strong>
+							</span>
+                    </div>
+                </div>
+
+                <div class='form_section'>
+                    <div class="block big white-box blue">
+
+                        <div class="half_width_right">
+                            <img src="http://ir.ebaystatic.com/cr/v/c1/drone.JPG" alt="" style="width: 92%;">
+                        </div>
+                        <div class="half_width_left">
+                            <div class="formLoading center">שולח... אנא המתן.</div>
+                            <div class="formSuccessHide">
+                                <table class="formSuccessInfoUpdateContainer" style="width: 100%;">
+                                    <tr>
+                                        <td style="vertical-align: top;">
+                                            <div class="formSuccessInfoUpdateBlock" style="max-width: 450px; margin: auto;">
+                                                <div class="ebayColors clearfix">
+                                                    <div class="color green left"></div>
+                                                    <div class="color orange left"></div>
+                                                    <div class="color blue left"></div>
+                                                    <div class="color red left"></div>
+                                                </div>
+
+                                                <div style="background: white; padding: 2em; border: 2px solid #ececec;color: #0372c3;font-weight: bold;text-align: center; font-size: 1.6em;line-height: 1.2;">
+                                                    תודה!<br />
+                                                    ניצור איתך קשר לתיאום המשלוח.
+                                                    בינתיים, אנחנו מזמינים אותך להיות איתנו בקשר בעמוד הפייסבוק שלנו
+                                                    eBay Israel - R&D Center<br />
+                                                    <br />
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+
+                                </table>
+                            </div>
+
+
+
+                            <div class="formInputs">
+                                <div class="left-text">
+                                    <p>
+                                        בין אם זה רחפן SPARK DJI (תלוי אם היית בין הראשונים שעלו על ה- URL &#9786;) ובין אם זה פרס שווה אחר*,
+                                        נשמח לשגר אותו ישירות לידיים שלך.</br>
+                                        על מנת שנוכל להעניק לך את הפרס יש להתחבר לפייסבוק ולשלוח לנו את הפרטים</br>
+                                    </p>
+                                    <div class='fb_area'>
+                                        <fb:login-button id="fb_login" scope="public_profile,email" onlogin="checkLoginState();">
+                                        </fb:login-button>
+                                        <div id="status" class="status_text" ></div>
+                                    </div>
+                                </div>
+                                <div class="form_fields">
+                                    <div class="inputH inumber-1">
+                                        <input type='text' name='field_66' id='seller_id' placeholder='שם' required="required" />
+                                    </div>
+                                    <div class="inputH inumber-2">
+                                        <input type='text' name='field_69' id='firstname' placeholder='fb id' />
+                                    </div>
+                                    <div class="inputH inumber-3">
+                                        <input type='text' name='field_70' id='phone' placeholder='דואר אלקטרוני' required="required" />
+                                    </div>
+                                    <div class="inputH inumber-4">
+                                        <textarea name='field_68' id='issue_description' placeholder='הערות' ></textarea>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div>
+                                    <div id="active_button" class="send_button right" style="display:none">
+                                        <button id='profiler_submit_button' type="submit" class='btn blue smaller'>הקליקו לשליחת פרטים</button>
+                                    </div>
+                                    <div id="inactive_button" class="send_button right">
+                                        <button class='btn blue smaller inactive_button'>הקליקו לשליחת פרטים</button>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+
+                        </div>
+
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div class='form_section'>
+                    <div class="block big white-box green bigLH collapsedNoteBlock">
+                            <span class="close-text" dir="RTL">* עד גמר המלאי * eBay איננה מתחייבת להענקת פרסים/מתנות לכל גורם הנכנס לאתר/לינק זה * eBay רשאית לשנות את התקנון לפי ראות עיניה בכל עת, וללא כל התראה. * אין לראות בסוג הפרסים המוזכרים לעיל התחייבות של חברת eBay לספקם, והיא רשאית להחליף זאת בפרס אחר, גם אם שוויו שונה מהמוזכר לעיל. תודה על ההבנה!
+							</span>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="https://apps.ebay.co.il/assets/js/vendor/all.min.js?v=1.5.16"></script>
+<script src="https://apps.ebay.co.il/assets/js/main.min.js?v=1.5.16"></script>
+
+<script>
+    $(document).ready(function() {
+        app.init({
+            url: 'https://apps.ebay.co.il',
+            id: 189,
+            displayNewsletterOverlay: false,
+            registered: false
+        });
+
+        app.load(app.forgotform.init);
+    });
+</script>
+<script>
+    // This is called with the results from from FB.getLoginStatus().
+    function statusChangeCallback(response) {
+        console.log('statusChangeCallback');
+        console.log(response);
+        // The response object is returned with a status field that lets the
+        // app know the current login status of the person.
+        // Full docs on the response object can be found in the documentation
+        // for FB.getLoginStatus().
+        if (response.status === 'connected') {
+            // Logged into your app and Facebook.
+            testAPI();
+        } else {
+            // The person is not logged into your app or we are unable to tell.
+            //document.getElementById('status').innerHTML = 'Please log ' + 'into this app.';
+        }
+    }
+
+    function checkLoginState() {
+        FB.getLoginStatus(function(response) {
+            statusChangeCallback(response);
+        });
+
+    }
+
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId      : '128592291270831',
+            cookie     : true,
+            xfbml      : true,
+            version    : 'v2.11'
+        });
+
+        FB.getLoginStatus(function(response) {
+            statusChangeCallback(response);
+        });
+
+    };
+
+    // Load the SDK asynchronously
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+
+    // Here we run a very simple test of the Graph API after login is
+    // successful.  See statusChangeCallback() for when this call is made.
+    function testAPI() {
+        console.log('Welcome!  Fetching your information.... ');
+        FB.api('/me?fields=name,id,email', function(response) {
+            console.log(response.name);
+            var nameToDisplay = "שלום " + response.name;
+            var comment = response.id + "_" + response.name + "_" + response.email;
+            document.getElementById('status').innerHTML =nameToDisplay;
+            document.getElementById('seller_id').value =response.name;
+            document.getElementById('phone').value =response.email;
+            document.getElementById('firstname').value =response.id;
+            document.getElementById('issue_description').value =comment;
+            document.getElementById('fb_login').style="display:none";
+            document.getElementById('active_button').style="display:block";
+            document.getElementById('inactive_button').style="display:none";
+
+        });
+    }
+
+</script>
+
+</body>
+</html>
