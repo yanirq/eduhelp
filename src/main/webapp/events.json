@@ -121,7 +121,7 @@
       "additionalInfo": {
         "Image": "https://i.ytimg.com/vi/ssimeVR1cSY/hqdefault.jpg",
         "Comments": [
-          ""
+          "חזרה על המילים החדשות שנלמדו בשיעור לפני הבוחן :)"
         ],
         "Users": [
           "1",
@@ -146,10 +146,9 @@
       "Costs": "10",
       "Matching Percentage": "90",
       "additionalInfo": {
-        "Image": "https://www.hayadan.org.il/images/content3/2014/07/shutterstock_172115972-500x333.jpg",
+        "Image": "http://www.as-hachzakot.com/image/users/215385/ftp/my_files/Fotolia_23713605_XS-2.jpg",
         "Comments": [
-          "מתארגנת קבוצת לימוד למבחן כיתה ה1 במטמטיקה",
-          "נשמח לכמה מתנדבים/ות לעזור בכיתה למשך ~ שעתיים"
+         "בואו נשפץ את החר המוזיקה בבית הספר , קצת צבע ונסדר את מערכת השמע"
         ],
         "Users": [
           "1",
@@ -234,13 +233,13 @@
 
     {
       "Id": "10",
-      "Date": "22.03.2018",
+      "Date": "22.04.2018",
       "School": "כיתה ד2 בית ספר",
-      "Creator": "דני גוטשטיין",
+      "Creator": "דני סנדרסון",
       "ParticipantsNumber": "9",
-      "Description": "הכנה למבחן בחשבון",
+      "Description": "מוסיקה בקבלת שבת",
       "Skills": [
-        "מורה לחשבון"
+        "נגן"
       ],
       "Address": "ביגן 1 , עפולה , ישראל",
       "Costs": "0",
