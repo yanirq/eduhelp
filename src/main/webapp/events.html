@@ -23,6 +23,10 @@
     <!-- Custom Fonts -->
     <link href="css/font-awesome/font-awesome.min.css" rel="stylesheet" type="text/css">
 
+
+    <!-- Social Buttons CSS -->
+    <link href="css/plugins/social-buttons.css" rel="stylesheet">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -416,14 +420,142 @@
                                 </div>
                                 <!-- /.col-lg-6 (nested) -->
                                 <div class="col-lg-6">
-                                    <img id="eventImage" class="panel-body" width="500px" height="200px">
-                                    <div class="form-group">
-                                        <label>הוסף תמונה</label>
-                                        <input type="file">
+                                    <div class="panel-body">
+                                    <div class="text-center">
+                                        <a class="btn btn-social-icon btn-dropbox"><i class="fa fa-dropbox"></i></a>
+                                        <a class="btn btn-social-icon btn-facebook"><i class="fa fa-facebook"></i></a>
+                                        <a class="btn btn-social-icon btn-flickr"><i class="fa fa-flickr"></i></a>
+                                        <a class="btn btn-social-icon btn-github"><i class="fa fa-github"></i></a>
+                                        <a class="btn btn-social-icon btn-google-plus"><i class="fa fa-google-plus"></i></a>
+                                        <a class="btn btn-social-icon btn-instagram"><i class="fa fa-instagram"></i></a>
+                                        <a class="btn btn-social-icon btn-linkedin"><i class="fa fa-linkedin"></i></a>
+                                        <a class="btn btn-social-icon btn-pinterest"><i class="fa fa-pinterest"></i></a>
+                                        <a class="btn btn-social-icon btn-tumblr"><i class="fa fa-tumblr"></i></a>
+                                        <a class="btn btn-social-icon btn-twitter"><i class="fa fa-twitter"></i></a>
+                                        <a class="btn btn-social-icon btn-vk"><i class="fa fa-vk"></i></a>
                                     </div>
-                                    <span class="pull-right text-muted small">
-                                        <em>עדכון אחרון לפני יומיים</em>
+                                    </div>
+                                    <img style="align:center" id="eventImage" class="panel-body" width="470px" height="200px">
+                                    <div class="form-group">
+                                    </div>
+                                    <!-- /.panel -->
+                                    <div class="chat-panel panel panel-default">
+                                        <div class="panel-heading">
+                                            <i class="fa fa-comments fa-fw"></i> צ'ט לאירוע
+                                            <div class="btn-group pull-left">
+                                                <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
+                                                    <i class="fa fa-chevron-down"></i>
+                                                </button>
+                                                <ul class="dropdown-menu slidedown pull-left">
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="fa fa-refresh fa-fw"></i> רענן
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="fa fa-check-circle fa-fw"></i> זמין
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="fa fa-times fa-fw"></i> עסוק
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="fa fa-clock-o fa-fw"></i> לא נמצא
+                                                        </a>
+                                                    </li>
+                                                    <li class="divider"></li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="fa fa-sign-out fa-fw"></i> התנתק
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <!-- /.panel-heading -->
+                                        <div class="panel-body">
+                                            <ul class="chat">
+                                                <li class="left clearfix">
+                                    <span class="chat-img pull-left">
+                                        <img src="http://placehold.it/50/55C1E7/fff" alt="User Avatar" class="img-circle" />
                                     </span>
+                                                    <div class="chat-body clearfix">
+                                                        <div class="header">
+                                                            <strong class="primary-font">אייל כהן</strong>
+                                                            <small class="pull-right text-muted">
+                                                                <i class="fa fa-clock-o fa-fw"></i> חיבור אחרון לפני 12 דקות
+                                                            </small>
+                                                        </div>
+                                                        <p>
+                                                            חברים צריך להפגש ולטפל בגינה של הבית ספר, מי יכול?
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li class="right clearfix">
+                                    <span class="chat-img pull-right">
+                                        <img src="http://placehold.it/50/FA6F57/fff" alt="User Avatar" class="img-circle" />
+                                    </span>
+                                                    <div class="chat-body clearfix">
+                                                        <div class="header">
+                                                            <small class=" text-muted">
+                                                                <i class="fa fa-clock-o fa-fw"></i> חיבור אחרון לפני 13 דקות</small>
+                                                            <strong class="pull-right primary-font">משה לוי</strong>
+                                                        </div>
+                                                        <p>
+                                                            אני יכול להצטרף, מתי נוח לכולם?
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li class="left clearfix">
+                                    <span class="chat-img pull-left">
+                                        <img src="http://placehold.it/50/55C1E7/fff" alt="User Avatar" class="img-circle" />
+                                    </span>
+                                                    <div class="chat-body clearfix">
+                                                        <div class="header">
+                                                            <strong class="primary-font">אייל כהן</strong>
+                                                            <small class="pull-right text-muted">
+                                                                <i class="fa fa-clock-o fa-fw"></i> חיבור אחרון לפני 14 דקות</small>
+                                                        </div>
+                                                        <p>
+                                                            נוכל להפגש ביום חמישי בערב אחרי שעות בית ספר
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li class="right clearfix">
+                                    <span class="chat-img pull-right">
+                                        <img src="http://placehold.it/50/FA6F57/fff" alt="User Avatar" class="img-circle" />
+                                    </span>
+                                                    <div class="chat-body clearfix">
+                                                        <div class="header">
+                                                            <small class=" text-muted">
+                                                                <i class="fa fa-clock-o fa-fw"></i> חיבור אחרון לפני 15 דקות</small>
+                                                            <strong class="pull-right primary-font">אבי מזרחי</strong>
+                                                        </div>
+                                                        <p>
+                                                            אין בעיה נוכל להפגש ולסיים את הגינה הקדמית
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!-- /.panel-body -->
+                                        <div class="panel-footer">
+                                            <div class="input-group">
+                                                <input id="btn-input" type="text" class="form-control input-sm" placeholder="כתוב את הודעתך כאן..." />
+                                                <span class="input-group-btn">
+                                    <button class="btn btn-warning btn-sm" id="btn-chat">
+                                        שלח
+                                    </button>
+                                </span>
+                                            </div>
+                                        </div>
+                                        <!-- /.panel-footer -->
+                                    </div>
+                                    <!-- /.panel .chat-panel -->
                                 </div>
                                 <!-- /.col-lg-6 (nested) -->
                             </div>
