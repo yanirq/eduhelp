@@ -1,7 +1,5 @@
-openshift-jee-sample
+Community Bridge - Hackaton IATI
 ====================
 
-A sample app to be deployed on openshift environments
-
-Note: to build this repository with maven you must specify "-Popenshift", eg "mvn clean package -Popenshift"
-
+This is an opensource project dedicated to education tech, part of the IATI 6th annual hackaton event .
+Event based community platform under educational programs. 
