@@ -7,15 +7,19 @@
       "Creator": "אייל כהן",
       "ParticipantsNumber": "3",
       "Description": " לימוד למבחן מתמטיקה",
-      "Skills": ["מורה למתמטיקה","תלמיד","מדריך"],
+      "Skills": [
+        "מורה למתמטיקה",
+        "תלמיד",
+        "מדריך"
+      ],
       "Address": "איינשטיין 10, תל אביב יפו , ישראל",
       "Costs": "10",
       "Matching Percentage": "90",
       "additionalInfo": {
         "Image": "https://www.hayadan.org.il/images/content3/2014/07/shutterstock_172115972-500x333.jpg",
         "Comments": [
-           "מתארגנת קבוצת לימוד למבחן כיתה ה1 במטמטיקה",
-           "נשמח לכמה מתנדבים/ות לעזור בכיתה למשך ~ שעתיים"
+          "מתארגנת קבוצת לימוד למבחן כיתה ה1 במטמטיקה",
+          "נשמח לכמה מתנדבים/ות לעזור בכיתה למשך ~ שעתיים"
         ],
         "Users": [
           "1",
@@ -25,12 +29,17 @@
     },
     {
       "Id": "2",
-      "Date": "02ֿ.02.2018",
+      "Date": "26.03.2018",
       "School": "תפוז",
       "Creator": "יעל בן עזרא",
       "ParticipantsNumber": "15",
       "Description": "גינה לבית ספר",
-      "Skills":["גנן מקצוען","ציוד גינון","עוזרים","300 שח"],
+      "Skills": [
+        "גנן מקצוען",
+        "ציוד גינון",
+        "עוזרים",
+        "300 שח"
+      ],
       "Address": "סוקולוב 19, רמת השרון , ישראל",
       "Costs": "400",
       "Matching Percentage": "10",
@@ -53,7 +62,10 @@
       "Creator": "אבי לוי",
       "ParticipantsNumber": "40",
       "Description": "צביעה במעון יום לקשיש",
-      "Skills":["מתנדב","צבע לבן"],
+      "Skills": [
+        "מתנדב",
+        "צבע לבן"
+      ],
       "Address": "מעון יום רימונים",
       "Costs": "100",
       "Matching Percentage": "100",
@@ -69,13 +81,40 @@
       }
     },
     {
+      "Id": "9",
+      "Date": "22.07.2018",
+      "School": "כיתה ד2 בית ספר",
+      "Creator": "יאנוש מיקלוש",
+      "ParticipantsNumber": "9",
+      "Description": "נקיון חוף הים",
+      "Skills": [
+        "מורה לחשבון"
+      ],
+      "Address": "חוף חדרה",
+      "Costs": "0",
+      "Matching Percentage": "30",
+      "additionalInfo": {
+        "Image": "http://www.tripo.co.il/images/galleryImages/Varkala_beach.JPG",
+        "Comments": [
+          ""
+        ],
+        "Users": [
+          "1",
+          "4"
+        ]
+      }
+    },
+    {
       "Id": "4",
-      "Date": "22.03.2018",
+      "Date": "22.04.2018",
       "School": "כיתה ד2 בית ספר",
       "Creator": "דני גוטשטיין",
       "ParticipantsNumber": "9",
       "Description": "חזרה על השיעור בערבית",
-      "Skills":["מורה לערבית","מדריך"],
+      "Skills": [
+        "מורה לערבית",
+        "מדריך"
+      ],
       "Address": "ביגן 1 , עפולה , ישראל",
       "Costs": "0",
       "Matching Percentage": "30",
@@ -92,12 +131,17 @@
     },
     {
       "Id": "5",
-      "Date": "01.02.2018",
+      "Date": "30.04.2018",
       "School": "יסגב",
       "Creator": "אייל כהן",
       "ParticipantsNumber": "3",
       "Description": "שיפוץ חדר המוזיקה",
-      "Skills": ["שיפוצניק","עוזרים","400 שח","נגנים :)"],
+      "Skills": [
+        "שיפוצניק",
+        "עוזרים",
+        "400 שח",
+        "נגנים :)"
+      ],
       "Address": "איינשטיין 10, תל אביב יפו , ישראל",
       "Costs": "10",
       "Matching Percentage": "90",
@@ -115,12 +159,14 @@
     },
     {
       "Id": "6",
-      "Date": "02ֿ.02.2018",
+      "Date": "02.06.2018",
       "School": "תפוז",
       "Creator": "יונתן בן עזרא",
       "ParticipantsNumber": "15",
       "Description": "גינה לבית ספר",
-      "Skills":["גנן מקצוען"],
+      "Skills": [
+        "גנן מקצוען"
+      ],
       "Address": "סוקולוב 19, רמת השרון , ישראל",
       "Costs": "400",
       "Matching Percentage": "10",
@@ -143,7 +189,10 @@
       "Creator": "אבי לוי",
       "ParticipantsNumber": "40",
       "Description": "צביעה במעון יום לקשיש",
-      "Skills":["מתנדב","צבע לבן"],
+      "Skills": [
+        "מתנדב",
+        "צבע לבן"
+      ],
       "Address": "מעון יום רימונים",
       "Costs": "100",
       "Matching Percentage": "100",
@@ -160,12 +209,39 @@
     },
     {
       "Id": "8",
+      "Date": "22.06.2018",
+      "School": "כיתה ד2 בית ספר",
+      "Creator": "פישנזון",
+      "ParticipantsNumber": "9",
+      "Description": "הכנה למבחן בחשבון",
+      "Skills": [
+        "מורה לחשבון"
+      ],
+      "Address": "ביגן 1 , עפולה , ישראל",
+      "Costs": "0",
+      "Matching Percentage": "30",
+      "additionalInfo": {
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Exquisite-kspread.png",
+        "Comments": [
+          ""
+        ],
+        "Users": [
+          "1",
+          "4"
+        ]
+      }
+    },
+
+    {
+      "Id": "10",
       "Date": "22.03.2018",
       "School": "כיתה ד2 בית ספר",
       "Creator": "דני גוטשטיין",
       "ParticipantsNumber": "9",
       "Description": "הכנה למבחן בחשבון",
-      "Skills":["מורה לחשבון"],
+      "Skills": [
+        "מורה לחשבון"
+      ],
       "Address": "ביגן 1 , עפולה , ישראל",
       "Costs": "0",
       "Matching Percentage": "30",
