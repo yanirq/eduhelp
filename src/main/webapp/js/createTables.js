@@ -11,6 +11,7 @@
   .appendTo( "#temp" );
 
         $.each( item, function( i, itemsss ) {
+            if(i!="Image" && i!="Comments")
             $( "<td>" ).attr( "class", "center" ).html(itemsss)
         .appendTo( "#temp" );
             });
