@@ -1,4 +1,4 @@
-var flickerAPI = "temp.json";
+var flickerAPI = "events.json";
 
     var iterator= 0;
     var itemNumber = 0;

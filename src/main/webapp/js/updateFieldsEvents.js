@@ -2,7 +2,7 @@ var  url = window.location.href;
 
 var getEventId = getParameterByName("id", url);
 
-var jsonPath = "temp.json";
+var jsonPath = "events.json";
 
 $.getJSON( jsonPath, {
     format: "json"
