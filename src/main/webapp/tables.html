@@ -26,8 +26,6 @@
     <!-- Custom Fonts -->
     <link href="css/font-awesome/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -350,6 +348,8 @@
 <!-- jQuery Version 1.11.0 -->
 <script src="js/jquery-1.11.0.js"></script>
 
+<script src="js/createTables.js"></script>
+
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
 
@@ -363,14 +363,28 @@
 <!-- Custom Theme JavaScript -->
 <script src="js/sb-admin-2.js"></script>
 
-<!-- Page-Level Demo Scripts - Tables - Use for reference -->
+<!-- Page-Level Demo Scripts - Tables - Use for reference
+ $('#dataTables-example').dataTable();
+-->
 <script>
         $(document).ready(function() {
-          $('#dataTables-example').dataTable();
-        });
+        $('#dataTables-example').dataTable( {
+              "oLanguage": {
+               "sSearch": " חפש ",
+               "sInfo": " מציג מ  _START_ עד _END_ מתוך _TOTAL_",
+               "sInfoEmpty" : "מציג 0 מתוך 0 תוצאות ",
+                "sLengthMenu": "מציג _MENU_ רשומות",
 
+                "oPaginate": {
+                                "sFirst": "ראשון",
+                                "sPrevious": "קודם",
+                                "sNext": "הבא",
+                                "sLast": "אחרון"
+                            }
+             }
+        } );
+    } );
 </script>
-<script src="js/createTables.js"></script>
 
 </body>
 
