@@ -19,6 +19,11 @@ function fillData() {
 
 }
 
+function confirm(){
+
+alert('\tנרשמת לאירוע בהצלחה!\t\n');
+}
+
 function upcomingEvents(data) {
     html = "";
     $.each(data.items, function (i, item) {
@@ -32,7 +37,7 @@ function upcomingEvents(data) {
                 invert = true;
             }
             html += "<h3>" + item.Description + "</h3></div>" + "<div class='row2'><img src=" + item.additionalInfo.Image + "><div class='eventData'><p class='eventDetails'>" + item.Creator + "</p><p class='eventDetails'>" + item.Date + "</p><p class='eventDetails'>" + item.Address + "</p></div>";
-            html += "<div class='eventClicks'><button type='button' class='btn btn-warning'>הרשמה</button><a href='events.html?id=" + item.Id + "' class='btn btn-info'>לפרטים</a></div></div>";
+            html += "<div class='eventClicks'><button type='button' class='btn btn-warning' onclick='confirm()'>הרשמה</button><a href='events.html?id=" + item.Id + "' class='btn btn-info'>לפרטים</a></div></div>";
             html += "<div class='row3'>";
             $.each(item.Skills, function (i, skill) {
                 html += "<button type='button' class='btn btn-primary'>" + skill + "</button>";
