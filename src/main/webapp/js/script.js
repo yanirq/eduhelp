@@ -45,7 +45,6 @@ function myData(data){
         console.log("my: "+event.name);
         if (event.users.indexOf("2") > -1) {
             html += div;
-
             html += "<h3>" + event.name + "</h3></div>" + "<div class='row2'><img src=" + event.image + "><div class='eventData'><p class='eventDetails'>" + event.creator + "</p><p class='eventDetails'>" + event.date + "</p><p class='eventDetails'>" + event.location + "</p></div>";
             html += "<div class='eventClicks'><button type='button' class='btn btn-warning'>להרשמה</button><a href='events.html?eventId=" + event.id + "' class='btn btn-info'>לפרטים</a></div></div>";
             html += "<div class='row3'>";
