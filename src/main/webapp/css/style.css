@@ -1,6 +1,6 @@
 .panel-primary {
-    //
-    width: 100%;
+//
+width: 100%;
     padding:8px;
 }
 .panel-body{
@@ -10,10 +10,10 @@
 .row1 h3{
     margin-top:0px;
     margin-bottom: 10px;
-    //width: 70%;
+//width: 70%;
 }
 .row2{
-    //height:155px;
+//height:155px;
     display: flex;
     margin-bottom: 20px;
 }
@@ -21,8 +21,8 @@
     width:30%;
     height: 60%;
     max-height: 100px;
-    //width:200px;
- }
+//width:200px;
+}
 .eventData{
     width: 45%;
     margin-right: 2%;
@@ -44,8 +44,8 @@
 }
 
 .eventClicks {
-    //float: left;
-    //display: grid;
+//float: left;
+//display: grid;
     width: 20%;
     padding-right: 2%;
 }
