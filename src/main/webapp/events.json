@@ -7,12 +7,21 @@
       "Creator": "אייל כהן",
       "ParticipantsNumber": "3",
       "Description": "מבחן מתמטיקה",
-      "Skills": "מורה למתמטיקה",
+      "Skills": ["מורה למתמטיקה"],
       "Address": "איינשטיין 10, תל אביב יפו , ישראל",
       "Costs": "10",
-      "Matching Percentage":"90",
-      "Image":"https://www.hayadan.org.il/images/content3/2014/07/shutterstock_172115972-500x333.jpg",
-      "Comments":["ccc","bbb"]
+      "Matching Percentage": "90",
+      "additionalInfo": {
+        "Image": "https://www.hayadan.org.il/images/content3/2014/07/shutterstock_172115972-500x333.jpg",
+        "Comments": [
+          "ccc",
+          "bbb"
+        ],
+        "Users": [
+          "1",
+          "2"
+        ]
+      }
     },
     {
       "Id": "2",
@@ -21,12 +30,21 @@
       "Creator": "יונתן בן עזרא",
       "ParticipantsNumber": "15",
       "Description": "גינה לבית ספר",
-      "Skills": "גנן מקצוען",
+      "Skills":["גנן מקצוען"],
       "Address": "סוקולוב 19, רמת השרון , ישראל",
       "Costs": "400",
-      "Matching Percentage":"10",
-      "Image":"http://www.3144.co.il/Content/UserFiles/Upload/%D7%92%D7%99%D7%A0%D7%95%D7%9F%20%D7%91%D7%9E%D7%A8%D7%9B%D7%96.jpg",
-      "Comments":["ccc","bbb"]
+      "Matching Percentage": "10",
+      "additionalInfo": {
+        "Image": "http://www.3144.co.il/Content/UserFiles/Upload/%D7%92%D7%99%D7%A0%D7%95%D7%9F%20%D7%91%D7%9E%D7%A8%D7%9B%D7%96.jpg",
+        "Comments": [
+          "ccc",
+          "bbb"
+        ],
+        "Users": [
+          "1",
+          "2"
+        ]
+      }
     },
     {
       "Id": "3",
@@ -35,12 +53,20 @@
       "Creator": "אבי לוי",
       "ParticipantsNumber": "40",
       "Description": "צביעה במעון יום לקשיש",
-      "Skills": "מתנדב",
+      "Skills":["מתנדב","צבע לבן"],
       "Address": "מעון יום רימונים",
       "Costs": "100",
-      "Matching Percentage":"100",
-      "Image":"https://www.vindschilder.be/upload/content/494_1.png",
-      "Comments":["ccc\n","\nbbb"]
+      "Matching Percentage": "100",
+      "additionalInfo": {
+        "Image": "https://www.vindschilder.be/upload/content/494_1.png",
+        "Comments": [
+          "ccc\n",
+          "\nbbb"
+        ],
+        "Users": [
+          "1"
+        ]
+      }
     },
     {
       "Id": "4",
@@ -49,12 +75,20 @@
       "Creator": "דני גוטשטיין",
       "ParticipantsNumber": "9",
       "Description": "הכנה למבחן בחשבון",
-      "Skills": "מורה לחשבון",
+      "Skills":["מורה לחשבון"],
       "Address": "ביגן 1 , עפולה , ישראל",
       "Costs": "0",
-      "Matching Percentage":"30",
-      "Image":"https://upload.wikimedia.org/wikipedia/commons/4/4f/Exquisite-kspread.png",
-      "Comments":[""]
+      "Matching Percentage": "30",
+      "additionalInfo": {
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Exquisite-kspread.png",
+        "Comments": [
+          ""
+        ],
+        "Users": [
+          "1",
+          "3"
+        ]
+      }
     }
   ]
 }

@@ -9,14 +9,14 @@ $.getJSON( jsonPath, {
 }).done(function( data ) {
     $.each( data.items, function( i, item ) {
              if(item.Id == getEventId){
-                 $("#eventImage").attr("src", item.Image);
+                 $("#eventImage").attr("src", item.additionalInfo.Image);
                  $("#eventNameInput").attr("placeholder", item.Description);
                  $("#creatorInput").attr("placeholder", item.Creator);
                  $("#participants").attr("placeholder", item.ParticipantsNumber);
                  $("#address").attr("placeholder", item.Address);
                  $("#costs").attr("placeholder", item.Costs +" שח");
                  $("#eventName").html(item.Description);
-                 $("#comments").val(item.Comments);
+                 $("#comments").val(item.additionalInfo.Comments);
                  $("#description").val(item.Description);
              }
    });

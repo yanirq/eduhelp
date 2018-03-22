@@ -25,7 +25,7 @@ var flickerAPI = "events.json";
             itemId = itemName;
              return;
             }
-            if(paramName=="Comments" || paramName == "Image"){
+            if(paramName=="additionalInfo"){
                return;
             }
                           createTableBody+='<td class="center">';

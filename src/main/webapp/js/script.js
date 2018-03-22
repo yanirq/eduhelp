@@ -19,8 +19,8 @@ function fillData(){
 }
 function upcomingEvents(data) {
     html="";
-    $.each(data.events, function (i, event) {
-        console.log("upcoming:"+event.name);
+    $.each(data.items, function (i, item) {
+        console.log("upcoming:"+item.Description);
         if (invert) {
             html += preLi;
             invert=false;
@@ -28,10 +28,10 @@ function upcomingEvents(data) {
             html += preLiInvert;
             invert=true;
         }
-        html += "<h3>" + event.name + "</h3></div>" + "<div class='row2'><img src=" + event.image + "><div class='eventData'><p class='eventDetails'>" + event.creator + "</p><p class='eventDetails'>" + event.date + "</p><p class='eventDetails'>" + event.location + "</p></div>";
-        html += "<div class='eventClicks'><button type='button' class='btn btn-warning'>להרשמה</button><a href='events.html?eventId=" + event.id + "' class='btn btn-info'>לפרטים</a></div></div>";
+        html += "<h3>" + item.Description + "</h3></div>" + "<div class='row2'><img src=" + item.additionalInfo.Image + "><div class='eventData'><p class='eventDetails'>" + item.Creator + "</p><p class='eventDetails'>" + item.Date + "</p><p class='eventDetails'>" + item.Address + "</p></div>";
+        html += "<div class='eventClicks'><button type='button' class='btn btn-warning'>להרשמה</button><a href='events.html?id=" + item.Id + "' class='btn btn-info'>לפרטים</a></div></div>";
         html += "<div class='row3'>";
-        $.each(event.skills, function(i,skill) {
+        $.each(item.Skills, function(i,skill) {
             html += "<button type='button' class='btn btn-primary'>" + skill + "</button>";
         });
         html+="</div></div>";
@@ -41,14 +41,14 @@ function upcomingEvents(data) {
 }
 function myData(data){
     html="";
-    $.each(data.events, function (i, event) {
-        console.log("my: "+event.name);
-        if (event.users.indexOf("2") > -1) {
+    $.each(data.items, function (i, item) {
+        console.log("my: "+item.Description);
+        if (item.additionalInfo.Users.indexOf("2") > -1) {
             html += div;
-            html += "<h3>" + event.name + "</h3></div>" + "<div class='row2'><img src=" + event.image + "><div class='eventData'><p class='eventDetails'>" + event.creator + "</p><p class='eventDetails'>" + event.date + "</p><p class='eventDetails'>" + event.location + "</p></div>";
-            html += "<div class='eventClicks'><button type='button' class='btn btn-warning'>להרשמה</button><a href='events.html?eventId=" + event.id + "' class='btn btn-info'>לפרטים</a></div></div>";
+            html += "<h3>" + item.Description + "</h3></div>" + "<div class='row2'><img src=" + item.additionalInfo.Image + "><div class='eventData'><p class='eventDetails'>" + item.Creator + "</p><p class='eventDetails'>" + item.Date + "</p><p class='eventDetails'>" + item.Address + "</p></div>";
+            html += "<div class='eventClicks'><button type='button' class='btn btn-warning'>להרשמה</button><a href='events.html?id=" + item.Id + "' class='btn btn-info'>לפרטים</a></div></div>";
             html += "<div class='row3'>";
-            $.each(event.skills, function (i, skill) {
+            $.each(item.Skills, function (i, skill) {
                 html += "<button type='button' class='btn btn-primary'>" + skill + "</button>";
             });
             html += "</div></div></div>";
